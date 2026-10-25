@@ -1,0 +1,51 @@
+---
+layout: base
+title: Hoshy Peng
+cover: true
+---
+<style>
+  /* Keep Hydejack's cover, background, typography and avatar styling.
+     This initial homepage contains only the GitHub avatar and name. */
+  #_navbar,
+  #_main > footer,
+  .sidebar-nav,
+  .sidebar-social,
+  .sidebar-about > p {
+    display: none;
+  }
+
+  #_main {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+  }
+
+  #_drawer.cover {
+    position: relative;
+    width: 100%;
+  }
+
+  #_sidebar {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+
+  .sidebar-sticky {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .sidebar-about .avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .sidebar-about .sidebar-title > h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+
+  @media print {
+    #_sidebar { display: flex; }
+  }
+</style>

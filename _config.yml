@@ -1,0 +1,49 @@
+title: Hoshy Peng
+lang: en
+url: https://hoshy667.github.io
+baseurl: ""
+description: ""
+tagline: ""
+logo: /avatar.jpg
+favicon: /avatar.jpg
+apple_touch_icon: /avatar.jpg
+author:
+  name: Hoshy Peng
+  picture: /avatar.jpg
+
+# Use the actual Hydejack theme, pinned to its 9.2.1 release.
+remote_theme: hydecorp/hydejack@v9.2.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
+theme_color: rgb(25,55,71)
+google_fonts: false
+menu: []
+legal: []
+copyright: ""
+
+hydejack:
+  no_drawer: true
+  no_push_state: true
+  no_navbar: true
+  no_search: true
+  no_breadcrumbs: true
+  no_toc: true
+  cookies_banner: false
+  advertise: false
+  dark_mode:
+    dynamic: false
+    icon: false
+  offline:
+    enabled: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.md
+  - NOTICE.md
+  - vendor
